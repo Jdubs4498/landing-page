@@ -1,0 +1,6 @@
+.top{
+    background-color: darkblue;
+}
+.pictures{
+    flex-direction: row;
+}
