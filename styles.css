@@ -1,6 +1,113 @@
-.top{
-    background-color: darkblue;
+*{
+    font-family:"Roboto", sans-serif;
 }
-.pictures{
-    flex-direction: row;
+.section1{
+    background-color: #1F2937;
+    height:550px;
+}
+nav{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:auto;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+.logo{
+    color: #f9faf8;
+    display: flex;
+}
+ul{
+    color:#f9faf8;
+    display:flex;
+    list-style: none;
+    gap:1rem;
+}
+.top-pic{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: space-around;
+}
+.text1{
+    overflow-wrap: break-word;
+    width:400px;
+    color: #f9faf8;
+    font-size: 25px;
+}
+#footer1{
+    width:400px;
+    color: #e5e7eb;
+}
+button{
+    border-radius: 20%;
+    border:0px;
+    height:40px;
+    width:110px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding:10px;
+    margin-top: 15px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    height:200px;
+}
+.pic-row{
+    display: flex;
+    justify-content: center;
+    gap:2.5rem;
+    font-size: large;
+}
+.quote{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#e5e7eb;
+    height: 300px;
+    align-items: center;
+    color:#1F2937;
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+}
+.words{
+    flex-wrap: wrap;
+    width:800px;
+    height:200px;
+    font-size: 25px;
+    align-content: center;
+}
+.thor{
+    font-size: large;
+    align-self: end;
+}
+.bottom-box{
+    display: flex;
+    height:300px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box{
+    display:flex;
+    background-color: blue;
+    color: white;
+    width:1500px;
+    height:150px;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 10px;
+}
+.copyright{
+    display: flex;
+    justify-content:center;
+    height: 150px;
+    align-items:center;
+    background-color: darkblue;
+    color: white;
 }
